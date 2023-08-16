@@ -130,3 +130,49 @@ header .themeSelector span{
 .addTask form button:hover{
   background-color: #03b056;
 }
+
+.showTask{
+  padding: 20px 15px;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  margin: 20px auto;
+  box-shadow: var(--box-shadow);
+}
+
+.showTask p.head{
+  padding: 10px 0px 20px 0px;
+  border-bottom: 1px solid #dfdfdf;
+  display: flex;
+  align-items: center;
+}
+
+.showTask p.head span:first-child{
+  flex-grow: 1;
+}
+
+.showTask .title{
+  font-size: 18px;
+  font-weight: 600;
+  user-select: none;
+}
+
+.showTask .count{
+  background-color: #dfdfdf;
+  color: #525252;
+  padding: 5px 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+  user-select: none;
+}
+
+.showTask .clearAll{
+  background-color: #0f6af3;
+  color: #FFFFFF;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.showTask .clearAll:hover{
+  background-color: #1061db;
+}
