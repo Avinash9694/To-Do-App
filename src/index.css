@@ -91,6 +91,11 @@ header .themeSelector span{
   border: 1px solid #dfdfdf;
 }
 
+header .themeSelector .activeTheme{
+  height: 30px;
+  width: 30px;
+}
+
 .addTask {
   padding: 20px 15px;
   border-radius: 5px;
@@ -227,4 +232,10 @@ header .themeSelector span{
   font-size: 18px;
   color: #D82148;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 800px) {
+  .showTask li{
+    width: 100%;
+  }
 }
