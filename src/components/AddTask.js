@@ -15,7 +15,10 @@ const AddTask = ({ tasklist, setTasklist, task, setTask }) => {
             }
           : todo
       );
-      setTasklist(updatedTasklist);
+      
+      if (newTask.name !== "") {
+        setTasklist([...tasklist, newTask]);
+      }
       setTask({});
     } else {
       const date = new Date();
